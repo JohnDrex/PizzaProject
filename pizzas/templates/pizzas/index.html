@@ -1,0 +1,14 @@
+{% extends "pizzas/base.html" %}
+{% load static %}
+
+{% block content %}
+<link rel="stylesheet" href="{% static 'colors.css' %}"> 
+
+<p style="font-size:70px"> Welcome to John's Pizza! </p>
+<img src="{% static 'shop.jpg' %}" class="img-thumbnail" style="max-height: 279px" alt=""><img src="{% static 'pepperoni.jpg' %}" class="img-thumbnail" style="max-height: 300px" alt="">>
+<br>
+<p>Home of the greatest pizzas in the world!!!
+</p>
+
+
+{% endblock content %}
