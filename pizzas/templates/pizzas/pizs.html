@@ -9,7 +9,7 @@
 <ul> 
     {% for p in all_pizzas %}
     <li> 
-        <a href="{% url 'pizzas:pizza' p.id %}"> {{ p }} </a>
+        <a style="font-size:25px" href="{% url 'pizzas:pizza' p.id %}"> {{ p }} </a>
     </li>
 
     {% empty %}
